@@ -17,7 +17,7 @@ You can use this module as dependency in your own modules.
 Manual Deployment
 -----------------
 1. Download keycloak version from [https://www.keycloak.org/](https://www.keycloak.org/)
-2. Download corresponding keycloak-cas-services version from [maven central](https://search.maven.org/search?q=g:io.github.johnjcool%20AND%20a:keycloak-cas-services&core=gav)
+2. Download corresponding keycloak-cas-services version the [releases](https://github.com/Wimpje/keycloak-cas-services/releases/) page
 3. Copy keycloak-cas-services-<VERSION>.jar to ```<KEYCLOAK_INSTALLATION_DIR>/standalone/deployments```
 4. Start keycloak with ```<KEYCLOAK_INSTALLATION_DIR>/bin/standalone.<sh|bat>```
 5. Navigate to [http://localhost:8080](http://localhost:8080) and create an admin account
